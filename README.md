@@ -1,34 +1,34 @@
 # Group Partner
 
-Rahul , Mohan , Sanpreet
+Rahul , Mohan 
 
-# Founders Showcase
+# Reebok Online Store
 
-This HTML document showcases the founders and CEOs of various companies with their respective images and positions within the organizations.
+Welcome to the Reebok Online Store! This is a simple HTML page representing a sample layout for an online store featuring Reebok products.
 
-## Preview
+## Features
 
-![Preview](preview.png)
+- **Navigation Bar:** The page includes a navigation bar with links to various sections such as "Stores", "Contact Us", and "Login".
+  
+- **Dropdown Menu:** You'll find a dropdown menu under "More Brands" showcasing additional brand options.
 
-## Table of Contents
+- **Search Functionality:** A search bar is provided for users to search for specific items.
 
-- [Introduction](#introduction)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- **Product Display:** Products are displayed with images, descriptions, and prices.
 
-## Introduction
+- **Express Delivery Option:** An express delivery option is available, allowing users to select their nearest store for delivery.
 
-This HTML file presents a simple layout featuring images of founders and CEOs along with their names and positions. Each founder's section includes an image, their name, and their role within their respective companies.
+## Technologies Used
 
-## Usage
+- HTML
+- CSS
+- Font Awesome (for icons)
 
-You can use this code as a template to showcase the founders or key team members of your company or organization. Customize the images, names, and positions to fit your specific needs. 
+## How to Use
 
-## Contributing
+Simply open the `index.html` file in your web browser to view the Reebok Online Store page.
 
-Contributions to improve the design or functionality of this showcase are welcome. If you have any ideas for enhancements or spot any issues, feel free to open a pull request.
+## Credits
 
-## License
+- Images: [Reebok](https://www.reebok.in/)
 
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and use the code according to your requirements.
