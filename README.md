@@ -1,6 +1,6 @@
 # Group Partner
 
-Rahul , Mohan 
+Rahul , Mohan , Sanpreet
 
 # Founders Showcase
 
