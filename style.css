@@ -1,0 +1,106 @@
+General Styles
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* First Navbar Styles */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Set background color of the navigation bar to black */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .fas {
+    font-size: 20px;
+    margin-right: 10px;
+} */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* testing */
+/* element.style {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+} */
+
+.heart-simple {
+    background-position: 3.5% 19.9%;
+    background-size: 200%;
+}
+.location-symbol {
+    background-position: 3.5% 31.75%;
+    background-size: 200%;
+}
+.contact-symbol{
+    background-position: 3.5% 27.9%;
+    background-size: 200%;
+}
+
+.login-symbol {
+    background-position: 3.5% 3.8%;
+    background-size: 200%;
+}
