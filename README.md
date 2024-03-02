@@ -1,4 +1,4 @@
-# group partner
+# Group Partner
 
 Rahul , Mohan , sanpreet
 
