@@ -1,106 +1,232 @@
-General Styles
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-/* First Navbar Styles */
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333; /* Set background color of the navigation bar to black */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 4px;
+  background-color: #333; /* Set background color of the navigation bar to black */
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
+  margin-left: 1.5em;
 }
 
 .dropbtn {
-    background-color: #333;
-    color: white;
-    padding: 25px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links li {
-    margin-right: 20px;
+  /* margin-right: 5px; */
+  font-size: 12px;
 }
 
 .nav-links li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
-/* .fas {
-    font-size: 20px;
-    margin-right: 10px;
-} */
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+.line {
+  color: rgba(143, 143, 143, 0.3);
+  font-size: 26px;
+  transform: translateY(-2px);
+  margin-left: 12px;
+  margin-right: 0;
 }
 
-/* testing */
-/* element.style {
-    display: block;
-    height: 50px;
-    width: 50px;
-    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
-} */
+.line1 {
+  margin-left: 0;
+}
 
 .heart-simple {
-    background-position: 3.5% 19.9%;
-    background-size: 200%;
+  background-position: 3.5% 19.9%;
+  background-size: 200%;
 }
 .location-symbol {
-    background-position: 3.5% 31.75%;
-    background-size: 200%;
+  background-position: 3.5% 31.75%;
+  background-size: 200%;
 }
-.contact-symbol{
-    background-position: 3.5% 27.9%;
-    background-size: 200%;
+.contact-symbol {
+  background-position: 3.5% 27.9%;
+  background-size: 200%;
 }
 
 .login-symbol {
-    background-position: 3.5% 3.8%;
-    background-size: 200%;
+  background-position: 3.5% 3.8%;
+  background-size: 200%;
+}
+
+.bag {
+  padding: 14px;
+}
+
+.birla {
+  margin-right: 8px;
+}
+
+.bag i {
+  font-size: 20px;
+  transform: translateY(3px);
+}
+
+nav {
+  display: inline-block;
+}
+
+.nav-bar {
+  margin: 1em 1em 2.5em 1.5em;
+}
+
+.search i {
+  transform: translateY(9px);
+  margin-right: 8px;
+}
+
+.nav-bar img {
+  margin: 0 2em 0 1em;
+  transform: translateY(14px);
+}
+
+span {
+  margin-right: 13px;
+  font-weight: 500;
+  transform: translateY(9px);
+  display: inline-block;
+}
+
+input {
+  width: 8em;
+  border: none;
+  transform: translateY(9px);
+  font-weight: 500;
+  font-size: 13px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search {
+  padding: 1.5em 1em;
+  display: inline-block;
+  border-bottom: 1px solid black;
+  margin-left: 4.5em;
+  margin-right: 1em;
+}
+
+.button {
+  display: flex;
+  background-color: #c40c2f;
+  color: white;
+  border-radius: 35px;
+}
+
+.product {
+  display: inline-block;
+  margin-left: 1.5em;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+}
+
+.image1 {
+  background-image: url('https://imagescdn.reebok.in/img/app/product/3/39627953-12965466.jpg?q=75&auto=format&w=387');
+  width: 275px;
+  height: 414px;
+  background-size: contain;
+}
+
+.image2 {
+  background-image: url('https://imagescdn.reebok.in/img/app/product/3/39627948-12965418.jpg?q=75&auto=format&w=387');
+  width: 275px;
+  height: 414px;
+  background-size: contain;
+}
+
+.image3 {
+  background-image: url('https://imagescdn.reebok.in/img/app/product/3/39627944-12965381.jpg?q=75&auto=format&w=387');
+  width: 275px;
+  height: 414px;
+  background-size: contain;
+}
+
+.image4 {
+  background-image: url('https://imagescdn.reebok.in/img/app/product/3/39627958-12965513.jpg?q=75&auto=format&w=387');
+  width: 275px;
+  height: 414px;
+  background-size: contain;
+}
+
+.image p {
+  display: inline-block;
+  background-image: linear-gradient(
+    285deg,
+    rgb(46, 164, 224),
+    rgb(49, 198, 132)
+  );
+  color: white;
+  padding: 5px 7px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 13px;
+  margin-right: 9.5em;
+}
+
+.image p {
+  transform: translateY(-16px);
+}
+
+.about img {
+  transform: translateY(-2em);
+}
+
+.about div {
+  display: inline-block;
+  width: 83.5%;
+  margin-top: 12px;
+}
+
+.bot {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }

@@ -11,175 +11,116 @@
       referrerpolicy="no-referrer"
     />
     <title>Document</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-
-      nav {
-        display: inline-block;
-      }
-
-      .nav-bar {
-        margin: 1em 1em 2.5em 1.5em;
-      }
-
-      .search i {
-        transform: translateY(9px);
-        /* margin-left: 5em; */
-        margin-right: 8px;
-      }
-
-      .nav-bar img {
-        margin: 0 2em 0 1em;
-        transform: translateY(14px);
-      }
-
-      span {
-        margin-right: 13px;
-        font-weight: 500;
-        transform: translateY(9px);
-        display: inline-block;
-      }
-
-      input,
-      input:hover {
-        width: 8em;
-        border: none;
-        transform: translateY(9px);
-        font-weight: 500;
-        font-size: 13px;
-      }
-
-      .search {
-        padding: 1.5em 1em;
-        display: inline-block;
-        border-bottom: 1px solid black;
-        margin-left: 4.5em;
-        margin-right: 1em;
-      }
-
-      .button {
-        display: flex;
-        background-color: #c40c2f;
-        color: white;
-        border-radius: 35px;
-      }
-
-      /* .truck {
-      } */
-
-      .product {
-        display: inline-block;
-        margin-left: 2em;
-        box-sizing: border-box;
-      }
-
-      .image1 {
-        background-image: url('https://imagescdn.reebok.in/img/app/product/3/39627953-12965466.jpg?q=75&auto=format&w=387');
-        width: 275px;
-        height: 414px;
-        background-size: contain;
-      }
-
-      .image2 {
-        background-image: url('https://imagescdn.reebok.in/img/app/product/3/39627948-12965418.jpg?q=75&auto=format&w=387');
-        width: 275px;
-        height: 414px;
-        background-size: contain;
-      }
-
-      .image3 {
-        background-image: url('https://imagescdn.reebok.in/img/app/product/3/39627944-12965381.jpg?q=75&auto=format&w=387');
-        width: 275px;
-        height: 414px;
-        background-size: contain;
-      }
-
-      .image4 {
-        background-image: url('https://imagescdn.reebok.in/img/app/product/3/39627958-12965513.jpg?q=75&auto=format&w=387');
-        width: 275px;
-        height: 414px;
-        background-size: contain;
-      }
-
-      .image p {
-        display: inline-block;
-        background-image: linear-gradient(
-          285deg,
-          rgb(46, 164, 224),
-          rgb(49, 198, 132)
-        );
-        color: white;
-        padding: 5px 7px;
-        border-top-right-radius: 3px;
-        border-bottom-right-radius: 3px;
-        font-size: 13px;
-        margin-right: 9.5em;
-      }
-
-      .image p {
-        transform: translateY(-16px);
-      }
-
-      .about img {
-        transform: translateY(-2em);
-      }
-
-      .about div {
-        display: inline-block;
-        width: 84%;
-        margin-top: 12px;
-      }
-
-      .bot {
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
-        /* min-height: 100vh; */
-      }
-
-      /* .bot img {
-        position: absolute;
-      } */
-
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    
     <!-- 1st nav bar -->
     <div class="nav-container">
       <div class="dropdown">
-          <button class="dropbtn">MORE BRANDS </button>
-          <div class="dropdown-content">
-              <a href="#">Brand 1</a>
-              <a href="#">Brand 2</a>
-              <a href="#">Brand 3</a>
-          </div>
+        <p class="dropbtn">
+          MORE BRANDS
+          <span
+            ><i
+              class="fas fa-chevron-down"
+              style="transform: translateY(-10px)"
+            ></i
+          ></span>
+        </p>
+        <div class="dropdown-content">
+          <a href="#">Brand 1</a>
+          <a href="#">Brand 2</a>
+          <a href="#">Brand 3</a>
+        </div>
       </div>
       <ul class="nav-links">
-          <li><a href="#"><i class="location-symbol" style="display:block;height:50px;width:50px;background-image:url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png)"></i></a></li>
-          <li><a href="#">STORES </a></li>
-          <li><a href="#"><i class="contact-symbol" style="display:block;height:50px;width:50px;background-image:url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png)"></i></a></li>
-          <li><a href="#">CONTACT US</a></li>
-          <li><a href="#"><i class="login-symbol" style="display:block;height:50px;width:50px;background-image:url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png)"></i></a></li>
-          <li><a href="#">LOGIN</a></li>
+        <li>
+          <a href="#"
+            ><i
+              class="location-symbol"
+              style="
+                display: block;
+                height: 50px;
+                width: 50px;
+                background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+              "
+            ></i
+          ></a>
+        </li>
 
-          
-          <li><a href="#"><i class="heart-simple" style="display:block;height:50px;width:50px;background-image:url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png)"></i></a></li>
-          
-          <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
-          </li><a href="#"><img src="aditya-birla.png" alt="Aditya Birla Group" width="45" height="49"></a><li>
+        <li><a href="#">STORES </a></li>
 
+        <span class="line">|</span>
+
+        <li>
+          <a href="#"
+            ><i
+              class="contact-symbol"
+              style="
+                display: block;
+                height: 50px;
+                width: 50px;
+                background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+              "
+            ></i
+          ></a>
+        </li>
+
+        <li><a href="#">CONTACT US</a></li>
+
+        <span class="line">|</span>
+
+        <li>
+          <a href="#"
+            ><i
+              class="login-symbol"
+              style="
+                display: block;
+                height: 50px;
+                width: 50px;
+                background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+              "
+            ></i
+          ></a>
+        </li>
+
+        <li><a href="#">LOGIN</a></li>
+
+        <span class="line">|</span>
+
+        <li>
+          <a href="#"
+            ><i
+              class="heart-simple"
+              style="
+                display: block;
+                height: 50px;
+                width: 50px;
+                background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+              "
+            ></i
+          ></a>
+        </li>
+
+        <span class="line line1">|</span>
+
+        <li class="bag">
+          <a href="#"><i class="fas fa-shopping-bag fa-lg"></i></a>
+        </li>
+
+        <li class="birla">
+          <a href="#"
+            ><img
+              src="aditya-birla.png"
+              alt="Aditya Birla Group"
+              width="40"
+              height="40"
+          /></a>
+        </li>
       </ul>
-  </div>
+    </div>
 
-  <!-- 2nd nav bar -->
+    <!-- 2nd nav bar -->
 
     <div class="nav-bar">
       <img
@@ -250,7 +191,7 @@
       <div class="about">
         <div>
           <p style="font-size: 13px; margin: 2px 0 5px 0">TRAINING SHOES</p>
-          <p style="font-size: 17px; margin-bottom: 5px">
+          <p style="font-size: 16px; margin-bottom: 5px">
             Reebok Women NFX Trainer
           </p>
           <p><b>&#8377;7,599</b></p>
@@ -277,7 +218,7 @@
       <div class="about">
         <div>
           <p style="font-size: 13px; margin: 2px 0 5px 0">CLASSICS SHOES</p>
-          <p style="font-size: 17px; margin-bottom: 5px">
+          <p style="font-size: 16px; margin-bottom: 5px">
             Reebok Women Club C 85 W
           </p>
           <p><b>&#8377;6,999</b></p>
@@ -304,10 +245,10 @@
       <div class="about">
         <div>
           <p style="font-size: 13px; margin: 2px 0 5px 0">RUNNING SHOES</p>
-          <p style="font-size: 17px; margin-bottom: 5px">
+          <p style="font-size: 16px; margin-bottom: 5px">
             Reebok Women Energen Plus 2
           </p>
-          <p>&#8377;6,999</p>
+          <p><b>&#8377;6,999</b></p>
         </div>
         <img
           class="view-aline"
@@ -331,8 +272,8 @@
       <div class="about">
         <div>
           <p style="font-size: 13px; margin: 2px 0 5px 0">CLASSICS SHOES</p>
-          <p style="font-size: 17px; margin-bottom: 5px">
-            Reebok Unisex Classic Leather ...
+          <p style="font-size: 16px; margin-bottom: 5px">
+            Reebok Unisex Classic Leather
           </p>
           <p><b>&#8377;7,999</b></p>
         </div>
